@@ -12,13 +12,21 @@ export default function AuthForm() {
   return (
     <>
       <Box border={"1px solid gray"} borderRadius={4} p={4}>
-        <VStack spacing={2} align={"stretch"}>
+        <VStack
+          spacing={2}
+          alignItems={"center"}
+          justifyContent={"center"}
+          padding={8}
+        >
           <Image
             src="Instagram.png"
             alt="Instagram name"
-            h={24}
             cursor={"pointer"}
+            h={51}
+            w={170}
+            mb={6}
           />
+
           <Input
             name="Email"
             type="Email"
@@ -32,7 +40,7 @@ export default function AuthForm() {
             size={"sm"}
           />
 
-          <Button colorScheme="blue" size={"sm"}>
+          <Button colorScheme="blue" size={"sm"} w={"full"} mt={3}>
             LogIn
           </Button>
 
@@ -67,7 +75,7 @@ export default function AuthForm() {
               <Image src="facebook.png" alt="facebook icon" h={5} />
               <Text>Log in with Facebook</Text>
             </Flex>
-            <Text m={2}>Forgot password?</Text>
+            <Text>Forgot password?</Text>
           </Flex>
         </VStack>
       </Box>
