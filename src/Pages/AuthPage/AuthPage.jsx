@@ -13,8 +13,8 @@ export default function AuthPage() {
             justifyContent={"center"}
             display={{ base: "none", md: "flex" }}
           >
-            <Image src="/auth.png" h={"582px"} w={"420px"} />
-            <Box mt={50} marginLeft={-268}>
+            <Image src="/auth.png" h={"580px"} w={"420px"} />
+            <Box mt={51} marginLeft={-268}>
               <Carousel />
             </Box>
           </Flex>

@@ -5,21 +5,16 @@ import { FaInstagram } from "react-icons/fa";
 export default function Sidebar() {
   return (
     <Box
+      height={"100vh"}
       borderRight={"1px solid"}
       borderColor={"WhiteAlpha.300"}
-      h={"100vh"}
       py={8}
       position={"sticky"}
       top={0}
       left={0}
       px={{ base: 2, md: 4 }}
     >
-      <Flex
-        flexDir={"column"}
-        justifyContent={"center"}
-        alignItems={{ base: "center", lg: "flex-start" }}
-        gap={6}
-      >
+      <Flex flexDir={"column"} gap={6} w={"full"}>
         <Box display={{ base: "none", lg: "block" }}>
           <Image src="/Instagram.png" alt="Instagram " h={"30px"} m={2} />
         </Box>
