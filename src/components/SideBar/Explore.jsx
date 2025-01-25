@@ -13,7 +13,7 @@ export default function Explore() {
     >
       <Link
         display={"flex"}
-        to={"/"}
+        to={"/explore"}
         as={RouterLink}
         alignItems={"center"}
         gap={4}
@@ -21,6 +21,7 @@ export default function Explore() {
         p={2}
         w={{ base: 10, lg: "full" }}
         justifyContent={{ base: "center", lg: "flex-start" }}
+        _hover={{ bg: "gray.700", borderRadius: 4, textDecoration: "none" }}
       >
         <MdOutlineExplore size={24} />
         <Box display={{ base: "none", lg: "block" }}>Explore</Box>

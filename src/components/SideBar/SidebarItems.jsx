@@ -6,14 +6,13 @@ import Reels from "./Reels";
 import Messages from "./Messages";
 import Notifications from "./Notifications";
 import Create from "./Create";
-import More from "./More";
 import Profile from "./Profile";
 
 export default function SidebarItems() {
   return (
     <Flex
       alignItems={{ base: "center", lg: "flex-start" }}
-      justifyContent={"space-evenly"}
+      justifyContent={"space-between"}
       flexDir={"column"}
       gap={"4"}
     >
@@ -25,7 +24,6 @@ export default function SidebarItems() {
       <Notifications />
       <Create />
       <Profile />
-      <More />
     </Flex>
   );
 }

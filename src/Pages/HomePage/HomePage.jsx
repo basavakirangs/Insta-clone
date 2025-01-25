@@ -5,16 +5,16 @@ import SuggestedUsers from "../../components/SuggestedUsers/SuggestedUsers";
 
 export default function HomePage() {
   return (
-    <Container maxH={"container.lg"}>
-      <Flex gap={20}>
-        <Box flex={2} py={5} mx={5}>
-          <Status />
-          <FeedPosts />
-        </Box>
-        <Box flex={3} mr={20} display={{ base: "none", lg: "block" }}>
-          <SuggestedUsers />
-        </Box>
-      </Flex>
-    </Container>
+    // <Container maxH={"container.lg"}>
+    <Flex gap={20}>
+      <Box flex={2} py={5} mx={0}>
+        <Status />
+        <FeedPosts />
+      </Box>
+      <Box flex={3} mr={20} display={{ base: "none", lg: "block" }}>
+        <SuggestedUsers />
+      </Box>
+    </Flex>
+    // </Container>
   );
 }

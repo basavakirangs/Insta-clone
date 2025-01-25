@@ -22,6 +22,7 @@ export default function Home() {
         p={2}
         w={{ base: 10, lg: "full" }}
         justifyContent={{ base: "center", lg: "flex-start" }}
+        _hover={{ bg: "gray.700", borderRadius: 4, textDecoration: "none" }}
       >
         <GoHomeFill size={24} />
         <Box display={{ base: "none", lg: "block" }}>Home</Box>

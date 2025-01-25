@@ -4,7 +4,7 @@ import SuggestedUserHeader from "./SuggestedUserHeader";
 
 export default function SuggestedUsers() {
   return (
-    <VStack py={8} px={6} gap={4}>
+    <VStack py={8} px={6} gap={4} w={"300px"}>
       <SuggestedUserHeader />
       <Flex alignItems={"center"} justifyContent={"space-between"} w={"full"}>
         <Text fontSize={12} fontWeight={"bold"} color={"gray.500"}>

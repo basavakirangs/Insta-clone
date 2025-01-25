@@ -13,7 +13,7 @@ export default function Profile() {
     >
       <Link
         display={"flex"}
-        to={"/"}
+        to={"/username"}
         as={RouterLink}
         alignItems={"center"}
         gap={4}
@@ -21,6 +21,7 @@ export default function Profile() {
         p={2}
         w={{ base: 10, lg: "full" }}
         justifyContent={{ base: "center", lg: "flex-start" }}
+        _hover={{ bg: "gray.700", borderRadius: 4, textDecoration: "none" }}
       >
         <Avatar src="" size={"xs"} />
         <Box display={{ base: "none", lg: "block" }}>Profile</Box>

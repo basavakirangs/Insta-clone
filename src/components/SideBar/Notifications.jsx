@@ -23,6 +23,7 @@ export default function Notifications() {
         p={2}
         w={{ base: 10, lg: "full" }}
         justifyContent={{ base: "center", lg: "flex-start" }}
+        _hover={{ bg: "gray.700", borderRadius: 4, textDecoration: "none" }}
       >
         <NotificationsLogo size={24} />
         <Box display={{ base: "none", lg: "block" }}>Notifications</Box>

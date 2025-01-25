@@ -22,6 +22,7 @@ export default function Messages() {
         p={2}
         w={{ base: 10, lg: "full" }}
         justifyContent={{ base: "center", lg: "flex-start" }}
+        _hover={{ bg: "gray.700", borderRadius: 4, textDecoration: "none" }}
       >
         <MessagesLogo size={24} />
         <Box display={{ base: "none", lg: "block" }}>Messages</Box>
